@@ -1,8 +1,13 @@
-# React + Vite
+# Spotify Artist Album Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that allows users to search for an artist and display their albums using the Spotify API. The application fetches an access token, searches for the artist by name, and displays a list of albums for the found artist.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with the project, clone the repository and install the necessary dependencies:
+
+```bash
+git clone
+cd album-finder
+npm install
+```
