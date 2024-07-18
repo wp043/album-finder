@@ -1,6 +1,7 @@
 import './App.css';
 import { FormControl, InputGroup, Container, Button, Card, Row } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 const clientId = import.meta.env.VITE_CLIENT_ID;
 const clientSecret = import.meta.env.VITE_CLIENT_SECRET;
